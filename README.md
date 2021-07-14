@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://busiwa24.github.io/My-Mobile-Portfolio/))
+[Live Demo Link](https://busiwa24.github.io/Test-Portfolio/))
 
 
 ## Getting Started
