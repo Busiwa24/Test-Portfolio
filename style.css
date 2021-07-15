@@ -121,3 +121,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.background-color {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  background-color: #1a2236;
+  padding-bottom: 20px;
+  padding-top: 0%;
+}
+
