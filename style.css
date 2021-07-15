@@ -110,3 +110,14 @@ body {
   cursor: pointer;
 }
 
+.list-btn {
+  color: #1a2236;
+  background-color: #98dede;
+  font-size: 10.33px;
+  margin-right: 10px;
+  border: none;
+  padding: 5px;
+  margin-top: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
