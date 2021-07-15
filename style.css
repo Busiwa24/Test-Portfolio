@@ -65,3 +65,48 @@ body {
   width: 100%;
   height: auto;
 }
+
+.section-2 {
+  margin-top: 0;
+  margin-bottom: -6px;
+}
+
+.projects-card {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  margin-left: 16px;
+}
+
+.projects-heading-2 {
+  margin-left: 16px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  line-height: 16px;
+  font-size: 20px;
+  padding: 26px 0;
+}
+.projects-img {
+  width: 100%;
+  height: auto;
+}
+
+.project-button {
+  margin-left: 16px;
+  margin-top: 15px;
+  margin-right: 300px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #1a2236;
+  border: 2px solid white;
+}
+
+.project-button:hover {
+  cursor: pointer;
+}
+
+.project-button::after {
+  cursor: pointer;
+}
+
