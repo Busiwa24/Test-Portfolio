@@ -45,9 +45,5 @@ To get a local copy up and running follow these simple example steps.
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 
-- Hats off to Munsa Mibenge
-- Inspiration
-- etc
 
