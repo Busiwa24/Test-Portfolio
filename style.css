@@ -153,4 +153,58 @@ body {
   font-size: 16px;
   padding: 20px;
 }
+.lang {
+  background-image: url("img/languages.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  padding-bottom: 30px;
+}
 
+.lang h2 {
+  margin: 50px 120px 0 50px;
+}
+
+.list {
+  margin: 21px 61px 53px 60px;
+}
+
+.frameworks {
+  background-image: url("img/frameworks.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  padding-bottom: 30px;
+}
+
+.frameworks h2 {
+  margin: 50px 120px 0 50px;
+}
+
+.list-list {
+  margin: 10px;
+}
+
+.skills {
+  background-image: url("img/languages.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  padding-bottom: 30px;
+}
+
+.skills h2 {
+  margin: 50px 120px 0 50px;
+}
