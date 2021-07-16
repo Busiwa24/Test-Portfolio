@@ -51,6 +51,18 @@ body {
   margin: 30px auto;
 }
 
+.button-1:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #1a2236;
+}
+
+.button-1:active {
+  cursor: pointer;
+  background-color: white;
+  color: #1a2236; 
+}
+
 .sec-icons {
   display: flex;
   justify-content: center;
@@ -109,10 +121,14 @@ body {
 
 .project-button:hover {
   cursor: pointer;
+  background-color: white;
+  color: #1a2236;
 }
 
-.project-button::after {
+.project-button:active {
   cursor: pointer;
+  background-color: white;
+  color: #1a2236;
 }
 
 .list-btn {
