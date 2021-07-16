@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://busiwa24.github.io/Test-Portfolio/))
+[Live Demo Link](https://busiwa24.github.io/Test-Portfolio/)
 
 
 ## Getting Started
@@ -45,5 +45,12 @@ To get a local copy up and running follow these simple example steps.
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
 
+- Hats off to Munsa Mibenge
+- Inspiration
+- etc
 
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
