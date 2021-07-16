@@ -126,7 +126,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.background-color {
+.project-card-background {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
