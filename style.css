@@ -60,7 +60,7 @@ body {
 .button-1:active {
   cursor: pointer;
   background-color: white;
-  color: #1a2236; 
+  color: #1a2236;
 }
 
 .sec-icons {
@@ -175,13 +175,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.cv-btn {
+.cv-btn:hover {
   cursor: pointer;
   background-color: white;
   color: #1a2236;
 }
 
-.cv-btn {
+.cv-btn:active {
   cursor: pointer;
   background-color: white;
   color: #1a2236;
