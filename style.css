@@ -175,6 +175,18 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.cv-btn {
+  cursor: pointer;
+  background-color: white;
+  color: #1a2236;
+}
+
+.cv-btn {
+  cursor: pointer;
+  background-color: white;
+  color: #1a2236;
+}
+
 .lang {
   background-image: url("img/languages.png");
   background-repeat: no-repeat;
