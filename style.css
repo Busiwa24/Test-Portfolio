@@ -242,3 +242,12 @@ body {
 .skills h2 {
   margin: 50px 120px 0 50px;
 }
+
+.contact-form {
+  background-color:#F9F9FA;
+  background-image: url("img/image_geometry_1.svg");
+  background-repeat: no-repeat;
+}
+ .contact-h1 {
+   
+ }
