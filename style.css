@@ -247,9 +247,26 @@ body {
   background-color:#F9F9FA;
   background-image: url("img/image_geometry_1.svg");
   background-repeat: no-repeat;
-  height: 100vh;
+  padding: 18px;
+}
+.contact-form li{
+  list-style: none;
+
 }
 
- .contact-h1 {
+
+
+ .last-section {
+   background-color: #1a2236;
+ }
+
+ .social-icons {
+   display: flex;
+  
+
+ }
+ .contact-primary{
+
+
 
  }
