@@ -247,6 +247,8 @@ body {
   background-color:#F9F9FA;
   background-image: url("img/image_geometry_1.svg");
   background-repeat: no-repeat;
+  padding: 24px;
+  list-style: none;
 }
  .last-section {
    background-color: #1a2236;
