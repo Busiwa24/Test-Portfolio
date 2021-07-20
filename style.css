@@ -247,7 +247,9 @@ body {
   background-color:#F9F9FA;
   background-image: url("img/image_geometry_1.svg");
   background-repeat: no-repeat;
+  height: 100vh;
 }
+
  .contact-h1 {
-   
+
  }
