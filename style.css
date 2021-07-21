@@ -3,7 +3,7 @@
   padding: 0;
   overflow-x: hidden;
   font-family: playfair Display, sans-serif;
-  }
+}
 
 body {
   background-image: url('img/image_geometry_1.svg');
@@ -267,14 +267,13 @@ body {
   width: 100%;
   margin-left: 18px;
   margin-right: 14px;
- 
 }
 
-.text-area{
+.text-area {
   height: 20vh;
   margin: 10px 0;
   padding: 5px;
-  border: 1px solid #DFDFE0;
+  border: 1px solid #dfdfe0;
   box-sizing: border-box;
   border-radius: 4px;
   width: 288px;
@@ -285,7 +284,7 @@ body {
   margin: 10px 0;
   height: 42px;
   padding: 5px;
-  border: 1px solid #DFDFE0;
+  border: 1px solid #dfdfe0;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -297,11 +296,11 @@ body {
 }
 
 .footer-btn {
-  color: #92DCDC;
+  color: #92dcdc;
   margin-left: 16px;
   margin-top: 10px;
   display: flex;
-  justify-content:start;
+  justify-content: start;
 }
 
 .footer-img {
@@ -311,7 +310,8 @@ body {
 
 .footer {
   margin-top: 70px;
-  background-color:#1A2236;
+  background-color: #1a2236;
+
   /* padding: 30px; */
   height: 90px;
 }
@@ -319,10 +319,8 @@ body {
 .icons {
   list-style: none;
   color: white;
-  display:flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
-  margin: 14px;
-
+  margin: 20px 14px 14px 14px;
 }
