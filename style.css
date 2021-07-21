@@ -1,13 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: playfair Display, sans-serif;
-
-  /* overflow-x: hidden; */
 }
 
 body {
-  background-image: url("img/image_geometry_1.svg");
+  background-image: url('img/image_geometry_1.svg');
   background-repeat: no-repeat;
 }
 
@@ -25,10 +24,10 @@ body {
 .heading-1 {
   color: #1a2236;
   font-size: 50px;
-  width: 50%;
-  margin-top: 29px;
+  margin-top: 49px;
   margin-left: 16px;
   margin-right: 84px;
+  padding: 0;
 }
 
 .par-1 {
@@ -188,7 +187,7 @@ body {
 }
 
 .lang {
-  background-image: url("img/languages.png");
+  background-image: url('img/languages.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -208,7 +207,7 @@ body {
 }
 
 .frameworks {
-  background-image: url("img/frameworks.png");
+  background-image: url('img/frameworks.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -228,7 +227,7 @@ body {
 }
 
 .skills {
-  background-image: url("img/languages.png");
+  background-image: url('img/languages.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -241,4 +240,87 @@ body {
 
 .skills h2 {
   margin: 50px 120px 0 50px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #f9f9fa;
+  background-image: url('img/image_geometry_1.svg');
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  justify-content: center;
+}
+
+.contact-heading {
+  padding: 30px 0;
+  margin-top: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 18px;
+  margin-right: 14px;
+}
+
+.text-area {
+  height: 20vh;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 288px;
+}
+
+.input-field {
+  width: 288px;
+  margin: 10px 0;
+  height: 42px;
+  padding: 5px;
+  border: 1px solid #dfdfe0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.contact-button {
+  background-color: #1a2236;
+  color: white;
+  width: 288px;
+}
+
+.footer-btn {
+  color: #92dcdc;
+  margin-left: 16px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+.footer-img {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.footer {
+  margin-top: 70px;
+  background-color: #1a2236;
+
+  /* padding: 30px; */
+  height: 90px;
+}
+
+.icons {
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 14px 14px 14px;
 }
