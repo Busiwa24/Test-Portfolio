@@ -212,93 +212,42 @@
           <li class="list-list">CSS</li>
         </ul>
       </section>
-      <section class="contact-section">
-        <div class="contact-primary">
-          <h1 class="heading-1 contact-h1">Get Started</h1>
-          <p class="about-par">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
-          </p>
-        </div>
+      <section class="contact-form">
+        <div class="contact-heading">
+            <h1 class="heading-1">
+                Get Started
+            </h1>
+            <p class="par-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Unde ducimus corporis asperiores eveniet architecto, eos laborum velit quasi.
+             Debitis corporis provident cum nihil officiis recusandae explicabo consequuntur suscipit,
+             reiciendis enim!
+            </p>
+        </div> 
+        <div class="form-container">
+            <form action="action_page.php" class="form">
+          
+              <input type="text" id="fname" name="fullname" placeholder="Your name.." class="input-field">
+           
+              <input type="text" id="email" name="lastname" placeholder="Email Address" class="input-field">
 
-        <form
-          action="https://formspree.io/f/xzbyaeyk"
-          method="POST"
-          class="contact-form"
-        >
-          <ul>
-            <li>
-              <input
-                type="text"
-                pattern="[A-Za-z]+"
-                class="contact-element"
-                name="user-name"
-                placeholder="Full Name"
-                maxlength="30"
-                required
-              />
-            </li>
-            <li>
-              <input
-                type="email"
-                class="contact-element"
-                name="user-email"
-                placeholder="example@gmail.com"
-                required
-              />
-            </li>
-            <li>
-              <textarea
-                name="user-message"
-                class="contact-element"
-                cols="30"
-                rows="10"
-                placeholder="Write your message here"
-                maxlength="500"
-                required
-              ></textarea>
-            </li>
-            <li>
-              <input
-                type="submit"
-                value="Start collaboration"
-                class="contact-btn"
-              />
-            </li>
-          </ul>
-        </form>
+              <textarea id="subject" name="subject" placeholder="Write something.." class="text-area"></textarea>
+
+              <button class="contact-button input-field" type="button">Start Collaboration</button>
+            </form>
+          </div>   
       </section>
-      <div class="last-section">
-        <button class="cv-btn" type="button">
-          <span>Get My Resume</span>
-          <a href="#"><img src="./img/Arrow.svg" alt="Arrow" /></a>
-        </button>
-        <ul class="social-icons">
-          <li>
-            <a href="#"
-              ><img src="./img/stackoverflow.svg" alt="stackoverflow"
-            /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/Twitter.svg" alt="Twitter" /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="./img/Linkedin-icon.svg" alt="Linkedin-icon"
-            /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/Medium.svg" alt="Medium" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/GitHub.svg" alt="GitHub" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./img/Vector.svg" alt="Vector" /></a>
-          </li>
-        </ul>
-      </div>
     </main>
+    <footer class="footer">
+    <span class="footer-btn">Get My resume<span class="footer-img"><img src="img/Union.png" alt=""></span></span>
+    <ul class="icons">
+        <li><ion-icon name="logo-stackoverflow"></ion-icon></li>
+        <li><ion-icon name="logo-github"></ion-icon></li>
+        <li><ion-icon name="logo-twitter"></ion-icon></li>
+        <li><ion-icon name="logo-linkedin"></ion-icon></li>
+        <li><ion-icon name="logo-medium"></ion-icon></li>
+        <li><ion-icon name="logo-angular"></ion-icon></li>
+    </ul>    
+</footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

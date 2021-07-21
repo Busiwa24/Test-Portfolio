@@ -1,10 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: playfair Display, sans-serif;
-
-  /* overflow-x: hidden; */
-}
+  }
 
 body {
   background-image: url('img/image_geometry_1.svg');
@@ -25,10 +24,10 @@ body {
 .heading-1 {
   color: #1a2236;
   font-size: 50px;
-  width: 50%;
-  margin-top: 29px;
+  margin-top: 49px;
   margin-left: 16px;
   margin-right: 84px;
+  padding: 0;
 }
 
 .par-1 {
@@ -243,49 +242,87 @@ body {
   margin: 50px 120px 0 50px;
 }
 
-.contact-section {
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: #f9f9fa;
   background-image: url('img/image_geometry_1.svg');
   background-repeat: no-repeat;
-  padding: 24px;
-  list-style: none;
-  padding: 14px;
 }
 
-.contact-primary {
-  padding-top: 90px;
+.form-container {
+  justify-content: center;
 }
 
-.contact-form li {
-  list-style: none;
+.contact-heading {
+  padding: 30px 0;
+  margin-top: 30px;
 }
 
-.contact-form {
-  padding: 14px;
-}
-
-.contact-form ul {
+.form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 18px;
+  margin-right: 14px;
+ 
 }
 
-.contact-btn {
-  display: flex;
-  justify-content: center;
+.text-area{
+  height: 20vh;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #DFDFE0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 288px;
+}
+
+.input-field {
+  width: 288px;
+  margin: 10px 0;
+  height: 42px;
+  padding: 5px;
+  border: 1px solid #DFDFE0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.contact-button {
   background-color: #1a2236;
   color: white;
-  height: 60px;
-  width: 100%;
+  width: 288px;
 }
 
-.last-section {
-  background-color: #1a2236;
-}
-
-.social-icons {
+.footer-btn {
+  color: #92DCDC;
+  margin-left: 16px;
+  margin-top: 10px;
   display: flex;
+  justify-content:start;
 }
 
-.contact-primary {
+.footer-img {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.footer {
+  margin-top: 70px;
+  background-color:#1A2236;
+  /* padding: 30px; */
+  height: 90px;
+}
+
+.icons {
+  list-style: none;
+  color: white;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin: 14px;
+
 }
