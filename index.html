@@ -226,11 +226,11 @@
         <div class="form-container">
             <form action="action_page.php" class="form">
           
-              <input type="text" id="fname" name="fullname" placeholder="Your name.." class="input-field">
+              <input type="text" id="fname" name="fullname" placeholder="Your name.." class="input-field" maxlength="30" required>
            
-              <input type="text" id="email" name="lastname" placeholder="Email Address" class="input-field">
+              <input type="email" id="email" name="email" placeholder="email@address.com" class="input-field" required>
 
-              <textarea id="subject" name="subject" placeholder="Write something.." class="text-area"></textarea>
+              <textarea id="subject" name="subject" placeholder="Write something.." class="text-area" maxlength="500" required></textarea>
 
               <button class="contact-button input-field" type="button">Start Collaboration</button>
             </form>
