@@ -2,15 +2,11 @@
 
 # Microverse Portfolio Webpage
 
-> This project is meant to be an HTML & CSS exercise from the Microverse Program's Module 1.
+> This project is a desktop and mobile version of a portfolio website..
 
-![screenshot](screenshot.png)
-> mobile version
 
-![screenshot](screenshot 2.png)
-desktop version
+![screenshot](screenshot-2.png)
 
-The project consists in a mobile and desktop skeleton for a portfolio webpage. Feel free to try it out and explore the code as much as you like!
 
 
 ## Built With
@@ -35,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 - To use it open the "index.html" file in your local copy of the repository after cloning or downloading.
 
 
-## Authors
+## Author
 
 👤 **Busiwa Liuma.**
 
