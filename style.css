@@ -9,6 +9,9 @@ body {
   /* background-image: url('img/image_geometry_1.svg');
   background-repeat: no-repeat; */
 }
+.section-1-desktop {
+  display: none;
+}
 
 .section-1 {
   display: flex;
@@ -370,6 +373,9 @@ nav {
  .bg-image {
     display: none;
   }
+  .section-1-desktop {
+    display: block;
+  }
 
   .navbar {
     height: 100px;
@@ -410,7 +416,7 @@ flex-direction:column:
 .image 
 display: none;
 
-.rectangle-54
+.image 
 position:absolute;
 width: 702px;
 height:877px;
