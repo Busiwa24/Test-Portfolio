@@ -6,20 +6,20 @@
 }
 
 .burger-element-1 {
-  background-color: #c4c4c4; /* This color doesn't mach the template example */
+  background-color: #c4c4c4; 
   width: 20px;
   height: 2px;
 }
 
 .burger-element-2 {
-  background-color: #c4c4c4; /* This color doesn't mach the template example */
+  background-color: #c4c4c4; 
   width: 20px;
   height: 2px;
   margin-top: 4px;
 }
 
 .burger-element-3 {
-  background-color: #c4c4c4; /* This color doesn't mach the template example */
+  background-color: #c4c4c4;
   width: 20px;
   height: 2px;
   margin-top: 4px;
@@ -596,7 +596,7 @@ footer ul {
     display: none;
   }
 
-  #hello-wrapper {
+  #nav-wrapper {
     display: grid;
     grid-template-columns: 1fr 48.75%;
     grid-template-areas:
@@ -1086,7 +1086,7 @@ footer ul {
 }
 
 @media screen and (min-width: 1645px) {
-  #hello-wrapper {
+  #nav-wrapper {
     grid-template-columns: 1fr 40%;
   }
 
