@@ -11,17 +11,17 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
-  color: #7D7C84;
+  color: #7d7c84;
 }
 
 .burger-element-1 {
-  background-color: #c4c4c4; 
+  background-color: #c4c4c4;
   width: 20px;
   height: 2px;
 }
 
 .burger-element-2 {
-  background-color: #c4c4c4; 
+  background-color: #c4c4c4;
   width: 20px;
   height: 2px;
   margin-top: 4px;
@@ -1095,7 +1095,6 @@ footer ul {
 }
 
 @media screen and (min-width: 1645px) {
-  
   #nav-wrapper {
     grid-template-columns: 1fr 40%;
   }
