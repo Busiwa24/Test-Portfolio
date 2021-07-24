@@ -5,8 +5,10 @@
 > This project is meant to be an HTML & CSS exercise from the Microverse Program's Module 1.
 
 ![screenshot](screenshot.png)
-> Desktop version
+> mobile version
 
+![screenshot](screenshot 2.png)
+desktop version
 
 The project consists in a mobile and desktop skeleton for a portfolio webpage. Feel free to try it out and explore the code as much as you like!
 
@@ -18,7 +20,7 @@ The project consists in a mobile and desktop skeleton for a portfolio webpage. F
 
 ## Live Demo
 
-[Live Demo Link](https://rpire.github.io/microverse-portfolio)
+[Live Demo Link](https://busiwa24.github.io/Test-Portfolio/)
 
 
 ## Getting Started
