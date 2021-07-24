@@ -1,17 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# M
+# Microverse Portfolio Webpage
 
-> One paragraph statement about the project.
+> This project is a desktop and mobile version of a portfolio website..
 
-![screenshot](screenshot.png)
 
-Additional description about the project and its features.
+![screenshot](screenshot-2.png)
+
+
 
 ## Built With
 
-- HTML
-- CSS
+- HTML5 & CSS3
+
 
 ## Live Demo
 
@@ -20,25 +21,24 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
--You only need a web browser on your local machine
+### Get the repository into your PC.
+- Clone this repository using this URL [https://rpire.github.io/microverse-portfolio.git](https://rpire.github.io/microverse-portfolio.git) or download it as a ZIP from the "Code" tab and extract the files.
+
+### Usage
+- To use it open the "index.html" file in your local copy of the repository after cloning or downloading.
 
 
+## Author
 
-## Authors
+👤 **Busiwa Liuma.**
 
-👤 **Busiwa Liuma**
+- GitHub: (https://github.com/Busiwa24)
+- Twitter: (https://twitter.com/busiwaliuma)
+- LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-28385b80/)
 
-- GitHub: [@githubhandle](https://github.com/Busiwa24)
-- Twitter: [@twitterhandle](https://twitter.com/@busiwaliuma)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/busiwa-liuma-28385b80/)
 
 
 ## Show your support
@@ -47,10 +47,3 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hats off to Munsa Mibenge
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
