@@ -1,44 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# M
+# Microverse Portfolio Webpage
 
-> One paragraph statement about the project.
+> This project is meant to be an HTML & CSS exercise from the Microverse Program's Module 1.
 
 ![screenshot](screenshot.png)
+> Desktop version
 
-Additional description about the project and its features.
+
+The project consists in a mobile and desktop skeleton for a portfolio webpage. Feel free to try it out and explore the code as much as you like!
+
 
 ## Built With
 
-- HTML
-- CSS
+- HTML5 & CSS3
+
 
 ## Live Demo
 
-[Live Demo Link](https://busiwa24.github.io/Test-Portfolio/)
+[Live Demo Link](https://rpire.github.io/microverse-portfolio)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
--You only need a web browser on your local machine
+### Get the repository into your PC.
+- Clone this repository using this URL [https://rpire.github.io/microverse-portfolio.git](https://rpire.github.io/microverse-portfolio.git) or download it as a ZIP from the "Code" tab and extract the files.
 
+### Usage
+- To use it open the "index.html" file in your local copy of the repository after cloning or downloading.
 
 
 ## Authors
 
-👤 **Busiwa Liuma**
+👤 **Busiwa Liuma.**
 
-- GitHub: [@githubhandle](https://github.com/Busiwa24)
-- Twitter: [@twitterhandle](https://twitter.com/@busiwaliuma)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/busiwa-liuma-28385b80/)
+- GitHub: (https://github.com/Busiwa24)
+- Twitter: (https://twitter.com/busiwaliuma)
+- LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-28385b80/)
+
 
 
 ## Show your support
@@ -47,10 +49,3 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hats off to Munsa Mibenge
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
