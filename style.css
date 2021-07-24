@@ -5,6 +5,15 @@
   margin: 6% 5% 0 10%;
 }
 
+.labels {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7D7C84;
+}
+
 .burger-element-1 {
   background-color: #c4c4c4; 
   width: 20px;
@@ -1086,6 +1095,7 @@ footer ul {
 }
 
 @media screen and (min-width: 1645px) {
+  
   #nav-wrapper {
     grid-template-columns: 1fr 40%;
   }
