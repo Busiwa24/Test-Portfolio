@@ -14,20 +14,20 @@
   color: #7d7c84;
 }
 
-.burger-element-1 {
+.burger-1 {
   background-color: #c4c4c4;
   width: 20px;
   height: 2px;
 }
 
-.burger-element-2 {
+.burger-2 {
   background-color: #c4c4c4;
   width: 20px;
   height: 2px;
   margin-top: 4px;
 }
 
-.burger-element-3 {
+.burger-3 {
   background-color: #c4c4c4;
   width: 20px;
   height: 2px;
@@ -43,14 +43,14 @@
   align-items: center;
 }
 
-.collab-link {
+.start-link {
   max-width: 500px;
   width: 100%;
   height: 50px;
   margin: 7.5% 0;
 }
 
-.collab-button {
+.start-button {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,7 +80,7 @@
   margin-bottom: 10px;
 }
 
-.hello {
+.greeting {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +145,7 @@ nav a:hover {
   border-bottom: 2px solid #1a2236;
 }
 
-.hello h1 {
+.greeting h1 {
   font-size: 50px;
   font-family: "Playfair Display", sans-serif;
   font-weight: normal;
@@ -166,7 +166,7 @@ p {
   max-width: 500px;
 }
 
-.hello p {
+.greeting p {
   letter-spacing: -0.01em;
 }
 
@@ -614,7 +614,7 @@ footer ul {
     padding-bottom: 85px;
   }
 
-  .hello {
+  .greeting {
     align-items: flex-start;
     position: relative;
     grid-area: hello;
@@ -622,13 +622,13 @@ footer ul {
     margin: 192px 0 0 22%;
   }
 
-  .hello h1 {
+  .greeting h1 {
     font-size: 80px;
     line-height: 100%;
     margin-right: 13%;
   }
 
-  .hello p {
+  .greeting p {
     margin-right: 13%;
     font-size: 14px;
     line-height: 21px;
@@ -636,16 +636,27 @@ footer ul {
   }
 
   .collab-link {
-    margin: 0;
+   
+    width: auto;
+    height: 50px;
+    margin: 7.5% 0;
+    colour: white 
   }
 
   .collab-button {
-    margin-top: 59px;
-    margin-right: 13%;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    width: 54.27%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1a2236;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 100%;
+  height: 100%;
+  padding: auto 30px;
   }
 
   .deco-0 {
