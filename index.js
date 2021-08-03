@@ -3,7 +3,7 @@ function grab(e) {
 }
 
 const menu = document.getElementById('burger');
-const options = document.querySelectorAll('option');
+// const options = document.querySelectorAll('option');
 
 menu.addEventListener('click', () => {
   grab('open').style.display = 'none';
