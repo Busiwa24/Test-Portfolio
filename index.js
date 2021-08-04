@@ -24,4 +24,5 @@ grab('closed').addEventListener('click', () => {
   grab('closed').style.display = 'none';
 
   grab('nav--mobile').style.display = 'none';
+  
 });
