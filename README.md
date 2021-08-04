@@ -1,4 +1,10 @@
+
+
+
+# Microverse Portfolio Webpage
+
 # My First Microverse Portfolio WebSite
+
 
 > This project is a desktop and mobile version of a portfolio website..
 
@@ -34,5 +40,4 @@
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 

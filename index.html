@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +9,53 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-  <div id="nav-wrapper">
-    <nav>
+
+
+<!-- <body id="body relative"> -->
+
+<body id="body">
+  <div class="absolute hide" id="nav--mobile">
+    <div class="abs">
+      <img src="img/image_geometry_menu_1.svg" alt="image2">
+    </div>
+
+    <div class="closed">
+      <div id="closed" class="hide">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+        </svg>
+      </div>
+    </div>
+
+    <nav class="nav--mobile abs middle">
       <ul>
-        <li><a href="#" rel="noopener noreferrer">Hello</a></li>
-        <li><a href="#" rel="noopener noreferrer">Portfolio</a></li>
-        <li><a href="#" rel="noopener noreferrer">About</a></li>
-        <li><a href="#" rel="noopener noreferrer">Contact</a></li>
+        <li><a href="#" rel="access" class="option">Hello</a></li>
+        <li><a href="#" rel="acess" class="option">Portfolio</a></li>
+        <li><a href="#" rel="access" class="option">About</a></li>
+        <li><a href="#" rel="access" class="option">Contact</a></li>
       </ul>
     </nav>
-    <div class="burger">
-      <div class="burger-element-1"></div>
-      <div class="burger-element-2"></div>
-      <div class="burger-element-3"></div>
+
+    <div class="abs bottom">
+      <img src="img/image_geometry_menu_2.svg" alt="iamge2">
     </div>
-    <section id="hello" class="hello">
+  </div>
+
+  <div id="nav-wrapper">
+    <div class="burger" id="burger">
+      <div id="open">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+        </svg>
+      </div>
+    </div>
+
+    <section id="greeting" class="greeting">
       <h1>Busiwa Liuma</h1>
       <p>
         Hello! I am a software developer! I can help you build a product, feature
@@ -36,11 +67,13 @@
       </a>
       <img class="deco-0" src="./img/image_dots.svg" alt=" ">
     </section>
+
     <div id="design" class="collaboration">
       <img id="mos-1" class="design-img" src="./img/image_geometry_2.svg" alt=" ">
       <img id="mos-2" class="design-img" src="./img/desktop-bg.svg" alt=" ">
     </div>
   </div>
+
   <section id="projects" class="works">
     <ul class="works-container">
       <li class="c1">
@@ -50,12 +83,12 @@
           <img class="works-img" src="./img/work-img-1.svg" alt="Image">
           <div class="works-box">
             <h3>Project name goes here</h3>
-            <ul class="lang-container">
-              <li class="lang-box">HTML/CSS</li>
-              <li class="lang-box">Ruby on Rails</li>
-              <li class="lang-box">JavaScript</li>
+            <ul class="framework-container">
+              <li class="framework-box">HTML/CSS</li>
+              <li class="framework-box">Ruby on Rails</li>
+              <li class="framework-box">JavaScript</li>
             </ul>
-            <a href="#" rel="noopener noreferrer" class="works-link">
+            <a href="#" rel="access" class="works-link">
               <div class="works-button">
                 <span>See this project</span>
                 <div class="works-arrow"></div>
@@ -68,15 +101,15 @@
         <div class="c2">
           <div class="c21">
             <div class="project-2">
-              <img class="works-img" src="./img/work-img-2.svg" alt="Man typing on a laptop">
+              <img class="works-img" src="./img/work-img-2.svg" alt="work image">
               <div class="works-box">
                 <h3>Project name goes here</h3>
-                <ul class="lang-container">
-                  <li class="lang-box">HTML/CSS</li>
-                  <li class="lang-box">Ruby on Rails</li>
-                  <li class="lang-box">JavaScript</li>
+                <ul class="framework-container">
+                  <li class="framework-box">HTML/CSS</li>
+                  <li class="framework-box">Ruby on Rails</li>
+                  <li class="framework-box">JavaScript</li>
                 </ul>
-                <a href="#" rel="noopener noreferrer" class="works-link">
+                <a href="#" rel="access" class="works-link">
                   <div class="works-button">
                     <span>See this project</span>
                     <div class="works-arrow"></div>
@@ -91,12 +124,12 @@
               <img class="works-img" src="./img/work-img-3.svg" alt="Man typing on a laptop">
               <div class="works-box">
                 <h3>Project name goes here</h3>
-                <ul class="lang-container">
-                  <li class="lang-box">HTML/CSS</li>
-                  <li class="lang-box">Ruby on Rails</li>
-                  <li class="lang-box">JavaScript</li>
+                <ul class="framework-container">
+                  <li class="framework-box">HTML/CSS</li>
+                  <li class="framework-box">Ruby on Rails</li>
+                  <li class="framework-box">JavaScript</li>
                 </ul>
-                <a href="#" rel="noopener noreferrer" class="works-link">
+                <a href="#" rel="access" class="works-link">
                   <div class="works-button">
                     <span>See this project</span>
                     <div class="works-arrow"></div>
@@ -112,12 +145,12 @@
             <img class="works-img" src="./img/work-img-4.svg" alt="Man typing on a laptop">
             <div class="works-box">
               <h3>Project name goes here</h3>
-              <ul class="lang-container">
-                <li class="lang-box">HTML/CSS</li>
-                <li class="lang-box">Ruby on Rails</li>
-                <li class="lang-box">JavaScript</li>
+              <ul class="framework-container">
+                <li class="framework-box">HTML/CSS</li>
+                <li class="framework-box">Ruby on Rails</li>
+                <li class="framework-box">JavaScript</li>
               </ul>
-              <a href="#" rel="noopener noreferrer" class="works-link">
+              <a href="#" rel="access" class="works-link">
                 <div class="works-button">
                   <span>See this project</span>
                   <div class="works-arrow"></div>
@@ -129,10 +162,10 @@
             <img class="works-img" src="./img/work-img-5.svg" alt="image">
             <div class="works-box">
               <h3>Project name goes here</h3>
-              <ul class="lang-container">
-                <li class="lang-box">HTML/CSS</li>
-                <li class="lang-box">Ruby on Rails</li>
-                <li class="lang-box">JavaScript</li>
+              <ul class="framework-container">
+                <li class="framework-box">HTML/CSS</li>
+                <li class="framework-box">Ruby on Rails</li>
+                <li class="framework-box">JavaScript</li>
               </ul>
               <a href="#" rel="noopener noreferrer" class="works-link">
                 <div class="works-button">
@@ -150,15 +183,15 @@
           <img class="deco-5" src="./img/image-geometry_4.svg" alt=" ">
         </div>
         <div class="project-6">
-          <img class="works-img" src="./img/work-img-6.svg" alt="Man typing on a laptop">
+          <img class="works-img" src="./img/work-img-6.svg" alt="work image">
           <div class="works-box">
             <h3>Project name goes here</h3>
-            <ul class="lang-container">
-              <li class="lang-box">HTML/CSS</li>
-              <li class="lang-box">Ruby on Rails</li>
-              <li class="lang-box">JavaScript</li>
+            <ul class="framework-container">
+              <li class="framework-box">HTML/CSS</li>
+              <li class="framework-box">Ruby on Rails</li>
+              <li class="framework-box">JavaScript</li>
             </ul>
-            <a href="#" rel="noopener noreferrer" class="works-link">
+            <a href="#" rel="access" class="works-link">
               <div class="works-button">
                 <span>See this project</span>
                 <div class="works-arrow"></div>
@@ -238,7 +271,7 @@
       </label>
       <label class="txt-area">
         <span class="labels">Message</span>
-        <textarea placeholder="Enter your message here..."  maxlength="500" required></textarea>
+        <textarea placeholder="Enter your message here..." maxlength="500" required></textarea>
       </label>
       <button type="submit">Start collaboration</button>
     </form>
@@ -251,13 +284,15 @@
       <img src="./img/cv-icon.svg" alt=" ">
     </div>
     <ul>
-      <li><a href="#" rel="noopener noreferrer"><img src="./img/icon-1.svg" alt=" "></a></li>
-      <li><a href="#" rel="noopener noreferrer"><img src="./img/icon-2.svg" alt=" "></a></li>
-      <li><a href="#" rel="noopener noreferrer"><img src="./img/icon-3.svg" alt=" "></a></li>
-      <li><a href="#" rel="noopener noreferrer"><img src="./img/icon-4.svg" alt=" "></a></li>
-      <li><a href="#" rel="noopener noreferrer"><img src="./img/icon-5.svg" alt=" "></a></li>
-      <li><a href="#" rel="noopener noreferrer"><img src="./img/ic_stackoverflow.svg" alt=" "></a></li>
+      <li><a href="#" rel="access"><img src="./img/icon-1.svg" alt=" "></a></li>
+      <li><a href="#" rel="access"><img src="./img/icon-2.svg" alt=" "></a></li>
+      <li><a href="#" rel="access"><img src="./img/icon-3.svg" alt=" "></a></li>
+      <li><a href="#" rel="access"><img src="./img/icon-4.svg" alt=" "></a></li>
+      <li><a href="#" rel="access"><img src="./img/icon-5.svg" alt=" "></a></li>
+      <li><a href="#" rel="access"><img src="./img/ic_stackoverflow.svg" alt=" "></a></li>
     </ul>
   </footer>
+  <script src="index.js"></script>
 </body>
+
 </html>
