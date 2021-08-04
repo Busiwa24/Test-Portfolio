@@ -22,5 +22,6 @@ for (let i = 0; i < options.length; i += 1) {
 grab('closed').addEventListener('click', () => {
   grab('open').style.display = 'block';
   grab('closed').style.display = 'none';
+
   grab('nav--mobile').style.display = 'none';
 });
