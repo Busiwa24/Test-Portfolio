@@ -1,3 +1,49 @@
+.hidden {
+  display: none;
+}
+
+.popup-menu {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 90%;
+  height: 100%;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.popup-close-btn {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.framework-popup {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  justify-content: center;
+  margin-left: -70px;
+}
+
+.framework {
+  border: 0.1rem solid #ebecf0;
+}
+
+.popup-btn {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+/* POPUP END */
+
 .burger {
   display: flex;
   flex-direction: column;
@@ -36,8 +82,8 @@
 }
 
 ul {
-  margin-top: 7.3%;
-  margin-left: 3.47%;
+  /* margin-top: 7.3%;
+  margin-left: 3.47%; */
 }
 
 nav ul {
