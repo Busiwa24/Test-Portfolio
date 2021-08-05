@@ -1,3 +1,5 @@
+/* POPUP MENU BEGINS */
+
 .hidden {
   display: none;
 }
@@ -7,7 +9,6 @@
   position: fixed;
   top: 0;
   z-index: 1000;
-  width: 90%;
   height: 100%;
   padding: 20px;
   font-family: 'Poppins', sans-serif;
@@ -15,15 +16,21 @@
 
 .popup-close-btn {
   position: absolute;
-  top: 5%;
-  right: 10%;
+  top: 2%;
+  right: 8%;
+  cursor: pointer;
 }
 
 .title {
   font-size: 20px;
 }
 
-.framework-popup {
+.description {
+  overflow: hidden;
+  height: 180px;
+}
+
+.framework-container {
   display: flex;
   list-style: none;
   gap: 10px;
@@ -31,27 +38,27 @@
   margin-left: -70px;
 }
 
-.framework {
-  border: 0.1rem solid #ebecf0;
+.framework-container li {
+  border: 0.516669px solid;
+  list-style: none;
+  padding: 5px;
 }
 
 .popup-btn {
   display: flex;
   flex-direction: column;
-  width
-
+  align-items: center;
   gap: 20px;
 }
 
-.popup-btn1{
-width: 100px;
-paddin
-
+.popup-btn1 {
+  width: 246px;
+  height: 51px;
+  left: 37px;
+  border: 1px solid #1a2236;
 }
 
-
-
-/* POPUP END */
+/* POPUP MENU END */
 
 .burger {
   display: flex;
@@ -699,6 +706,66 @@ footer {
   body {
     background-image: none;
   }
+
+  /* POPUP MENU BEGINS */
+
+  .hidden {
+    display: none;
+  }
+
+  .popup-menu {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .popup-close-btn {
+    position: absolute;
+    top: 2%;
+    right: 8%;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    overflow: hidden;
+    height: 180px;
+  }
+
+  .framework-container {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+
+  .framework-container li {
+    border: 0.516669px solid;
+    list-style: none;
+    padding: 5px;
+  }
+
+  .popup-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .popup-btn1 {
+    width: 246px;
+    height: 51px;
+    left: 37px;
+    border: 1px solid #1a2236;
+  }
+
+  /* POPUP MENU END */
 
   nav {
     display: block;
