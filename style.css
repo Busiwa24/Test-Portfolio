@@ -38,9 +38,18 @@
 .popup-btn {
   display: flex;
   flex-direction: column;
+  width
 
   gap: 20px;
 }
+
+.popup-btn1{
+width: 100px;
+paddin
+
+}
+
+
 
 /* POPUP END */
 
