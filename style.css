@@ -42,7 +42,7 @@
   align-items: center;
   background: #1a2236;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -142,7 +142,7 @@ a {
 }
 
 footer a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -160,7 +160,7 @@ footer a {
 }
 
 nav a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -175,7 +175,7 @@ nav a:hover {
 
 .hello h1 {
   font-size: 50px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: normal;
   line-height: 100%;
   margin-top: 0;
@@ -185,7 +185,7 @@ nav a:hover {
 p {
   color: #1a2236;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 21px;
   font-weight: normal;
   font-style: normal;
@@ -214,7 +214,7 @@ p {
 .works h2 {
   align-self: center;
   font-size: 50px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 100%;
@@ -241,7 +241,7 @@ p {
 
 .works-box h3 {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 80%;
@@ -261,7 +261,7 @@ p {
   font-size: 10.33px;
   font-weight: 300;
   line-height: 80%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 2.16% 3.8%;
   margin-right: 3.6%;
 }
@@ -271,7 +271,7 @@ p {
   justify-content: space-evenly;
   color: #fff;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 24px;
@@ -312,7 +312,7 @@ p {
   align-self: flex-start;
   color: #1a2236;
   font-size: 50px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 100%;
@@ -322,7 +322,7 @@ p {
 .about h3 {
   color: #fff;
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-style: normal;
   margin-top: 7.765vh;
@@ -373,7 +373,7 @@ p {
 .cv-box span {
   color: #fff;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 24px;
   margin: 4.51% 6.94% 4.51% 27.43%;
@@ -394,7 +394,7 @@ p {
 .about li {
   color: #fff;
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-style: normal;
   line-height: 27px;
@@ -471,7 +471,7 @@ label {
 }
 
 input {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   height: 52px;
   left: 16px;
@@ -491,7 +491,7 @@ input::placeholder {
 }
 
 textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   height: 112px;
   left: 16px;
@@ -517,7 +517,7 @@ textarea::placeholder {
   align-items: center;
   background: #1a2236;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -535,7 +535,7 @@ textarea::placeholder {
 
 .contact-me h2 {
   color: #1a2236;
-  font-family: "Playfair Display", sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -545,7 +545,7 @@ textarea::placeholder {
 }
 
 .contact-me p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -653,7 +653,7 @@ footer ul {
 }
 
 .card h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -698,7 +698,7 @@ footer ul {
   border: 2px solid black;
   font-size: 10.33px;
   font-weight: 300;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 80%;
   text-align: center;
   padding: 4px 8px;
@@ -724,7 +724,7 @@ footer ul {
   align-items: center;
   background: #fff;
   color: #1a2236;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -783,8 +783,8 @@ footer ul {
     display: grid;
     grid-template-columns: 1fr 48.75%;
     grid-template-areas:
-      "nav nav"
-      "hello mosaic";
+      'nav nav'
+      'hello mosaic';
     padding-bottom: 85px;
   }
 
@@ -847,7 +847,7 @@ footer ul {
   #about-wrapper {
     display: grid;
     grid-template-columns: calc(578px + 5%) 1fr;
-    grid-template-areas: "squares about";
+    grid-template-areas: 'squares about';
     width: 100%;
     margin-right: 0;
   }
@@ -1308,7 +1308,7 @@ footer ul {
   #about-wrapper {
     display: grid;
     grid-template-columns: 51.25% 1fr;
-    grid-template-areas: "squares about";
+    grid-template-areas: 'squares about';
     width: 100%;
     margin-right: 0;
   }
