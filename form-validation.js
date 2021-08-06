@@ -5,4 +5,3 @@ function validation() {
   const comment = form.elements.comment.value;
   const message = document.getElementById('message');
   message.innerHTML = '';
-
