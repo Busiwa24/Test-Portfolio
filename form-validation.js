@@ -5,6 +5,8 @@ function validation() {
   const comment = form.elements.comment.value;
   const message = document.getElementById('message');
   message.innerHTML = '';
+  
+  console.log
 
   form.addEventListener('submit', (event) => {
     if (name.length < 1 || name === undefined) {
