@@ -10,7 +10,7 @@ const card1 = {
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
   link: [
     'https://rpire.github.io/microverse-portfolio',
-    'https://github.com/rpire/microverse-portfolio/tree/modal',
+    'https://github.com/busiwa24/microverse-portfolio/tree/modal',
   ],
 };
 
@@ -24,7 +24,7 @@ const card2 = {
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
   link: [
     'https://rpire.github.io/microverse-portfolio',
-    'https://github.com/rpire/microverse-portfolio/tree/modal',
+    'https://github.com/busiwa24/microverse-portfolio/tree/modal',
   ],
 };
 
@@ -38,7 +38,7 @@ const card3 = {
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
   link: [
     'https://rpire.github.io/microverse-portfolio',
-    'https://github.com/rpire/microverse-portfolio/tree/modal',
+    'https://github.com/busiwa24/microverse-portfolio/tree/modal',
   ],
 };
 
@@ -52,7 +52,7 @@ const card4 = {
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
   link: [
     'https://rpire.github.io/microverse-portfolio',
-    'https://github.com/rpire/microverse-portfolio/tree/modal',
+    'https://github.com/busiwa24/microverse-portfolio/tree/modal',
   ],
 };
 
@@ -66,7 +66,7 @@ const card5 = {
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
   link: [
     'https://rpire.github.io/microverse-portfolio',
-    'https://github.com/rpire/microverse-portfolio/tree/modal',
+    'https://github.com/busiwa24/microverse-portfolio/tree/modal',
   ],
 };
 
@@ -80,7 +80,7 @@ const card6 = {
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.<br><br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
   link: [
     'https://rpire.github.io/microverse-portfolio',
-    'https://github.com/rpire/microverse-portfolio/tree/modal',
+    'https://github.com/busiwa24/microverse-portfolio/tree/modal',
   ],
 };
 
