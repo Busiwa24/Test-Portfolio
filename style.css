@@ -19,15 +19,13 @@ body {
   display: flex;
 }
 
-
 .toolbar {
-display: flex;
-width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .hamburger {
   justify-self: flex-end;
-
 }
 
 .nav-bar {
@@ -155,6 +153,12 @@ width: 100%;
   margin-top: 12px;
   font-family: 'Poppins', sans-serif;
 }
+
+.list-btn:hover {
+  transition-duration: 1s;
+  transform: translate(0.1px, 20px);
+}
+
 
 .project-card-background {
   display: grid;
@@ -342,26 +346,20 @@ width: 100%;
 
 @media (min-width: 992px) {
   .toolbar .hamburger {
-    display:none;
+    display: none;
   }
 }
-.navbar-links{
+.navbar-links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width:300px;
+  width: 300px;
   height: 50px;
-  margin-left:600px;
+  margin-left: 600px;
   margin-top: 10px;
-
-
-
 }
-li a{
+.navbar-links li a {
   text-decoration: none;
   font-size: 14px;
-
-  
   padding: 0;
-  
 }
