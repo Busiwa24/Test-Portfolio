@@ -6,6 +6,8 @@ function validation() {
   const message = document.getElementById('message');
   message.innerHTML = '';
 
+ {console.log}
+
   form.addEventListener('submit', (event) => {
     if (name.length < 1 || name === undefined) {
       event.preventDefault();
@@ -20,6 +22,6 @@ function validation() {
       form.submit();
     }
   });
-}
+}  console.log
 
 validation();
