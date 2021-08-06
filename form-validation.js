@@ -10,11 +10,7 @@ function validation() {
     if (name.length < 1 || name === undefined) {
       event.preventDefault();
       message.innerHTML = '* Make sure to fill your name';
-    } else if (
-      email !== email.toLowerCase() ||
-      email < 1 ||
-      email === undefined
-    ) {
+    } else if (email !== email.toLowerCase() || email < 1 || email === undefined) {
       event.preventDefault();
       message.innerHTML =
         '* Make sure you fill your email and that it is in lower case.';
