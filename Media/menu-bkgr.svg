@@ -1,20 +1,4 @@
-<svg width="263" height="114" viewBox="0 0 263 114" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<circle cx="223.855" cy="74.8545" r="0.854544" fill="#1A2236"/>
-<circle cx="223.855" cy="87.6182" r="0.854544" fill="#1A2236"/>
-<circle cx="223.855" cy="100.382" r="0.854544" fill="#1A2236"/>
-<circle cx="223.855" cy="113.146" r="0.854544" fill="#1A2236"/>
-<circle cx="236.618" cy="74.8545" r="0.854544" fill="#1A2236"/>
-<circle cx="236.618" cy="87.6182" r="0.854544" fill="#1A2236"/>
-<circle cx="236.618" cy="100.382" r="0.854544" fill="#1A2236"/>
-<circle cx="236.618" cy="113.146" r="0.854544" fill="#1A2236"/>
-<circle cx="249.382" cy="74.8545" r="0.854544" fill="#1A2236"/>
-<circle cx="249.382" cy="87.6182" r="0.854544" fill="#1A2236"/>
-<circle cx="249.382" cy="100.382" r="0.854544" fill="#1A2236"/>
-<circle cx="249.382" cy="113.146" r="0.854544" fill="#1A2236"/>
-<circle cx="262.146" cy="74.8545" r="0.854544" fill="#1A2236"/>
-<circle cx="262.146" cy="87.6182" r="0.854544" fill="#1A2236"/>
-<circle cx="262.146" cy="100.382" r="0.854544" fill="#1A2236"/>
-<circle cx="262.146" cy="113.146" r="0.854544" fill="#1A2236"/>
+<svg width="111" height="74" viewBox="0 0 111 74" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M111 37L74 74L37 37L74 0L111 37Z" fill="#E45865"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M111 37L74 74L37 37L74 0L111 37Z" fill="url(#pattern0)" fill-opacity="0.2" style="mix-blend-mode:overlay"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M111 37L74 74L37 37L74 0L111 37Z" fill="#FFD4C4"/>
