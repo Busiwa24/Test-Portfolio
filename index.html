@@ -1,391 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//fonts.googleapis.com/css?family=Playfair+Display"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//fonts.googleapis.com/css?family=Poppins"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charlie G. | Portfolio HomePage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+  <script src="script.js"></script>
+  <script src="modal.js"></script>
+  <script src="form-validation.js"></script>
+  <script src="storage.js"></script>
 
-  <body id="body">
-    <div class="popup-menu hidden" id="popup-menu">
-      <div class="popup-close-btn">&#10005;</div>
-      <h1 class="title" id="title">Project name goes here</h1>
-      <ul class="framework-container">
-        <li>HTML/CSS</li>
-        <li>Ruby on Rails</li>
-        <li>JavaScript</li>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+</head>
+<body>
+  <div id="hello-wrapper">
+    <nav id="menu">
+      <i id="cross" class="fas fa-times cross invisible" onclick="toggleMenu()"></i>
+      <img class="deco-a" src="./Media/menu-dots.svg" alt=" ">
+      <img class="deco-b" src="./Media/menu-dots.svg" alt=" ">
+      <ul>
+        <li><a href="#hello" rel="noopener noreferrer" onclick="toggleMenu()">Hello</a></li>
+        <li><a href="#projects" rel="noopener noreferrer" onclick="toggleMenu()">Portfolio</a></li>
+        <li><a href="#about" rel="noopener noreferrer" onclick="toggleMenu()">About</a></li>
+        <li><a href="#contact" rel="noopener noreferrer" onclick="toggleMenu()">Contact</a></li>
       </ul>
-      <img src="img/work-img-1.svg" alt="img1" id="popup-img" />
-      <p class="description" id="descripton">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea
-        commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+      <img class="mos-0" src="./Media/thur.svg" alt=" ">
+    </nav>
+    <div class="burger">
+      <div id="burger-container" class="burger-container" onclick="toggleMenu()">
+         <div class="burger-element one"></div>
+        <div class="burger-element two"></div>
+        <div class="burger-element three"></div>
+      </div>
+    </div>
+    <section id="hello" class="hello">
+      <h1>Busiwa Liuma</h1>
+      <p>
+        Hello! I am a software developer! I can help you build a product, feature
+        or website. Taka a look of my works. If you like what you see and have a
+        project you need coded, don’t hesitate and contact me.
       </p>
-      <div class="popup-btn">
-        <button id="pop-btn1" class="popup-btn1">
-          See Live <img src="img/popup-btn1.svg" alt="img1" />
-        </button>
-        <button id="pop-btn1" class="popup-btn1">
-          See Source <img src="img/popup-btn2.svg" alt="img2" />
-        </button>
-      </div>
+      <a class="collab-link" href="#" rel="noopener noreferrer">
+        <div class="collab-button">Start Collaboration</div>
+      </a>
+      <img class="deco-0" src="./Media/image_dots.svg" alt=" ">
+    </section>
+    <div id="mosaic" class="collaboration">
+      <img id="mos-1" class="mosaic-img" src="./Media/image_geometry_2.svg" alt=" ">
+      <img id="mos-2" class="mosaic-img" src="./Media/full-mosaic.svg" alt=" ">
     </div>
-
-    <div class="absolute hide" id="nav--mobile">
-      <div class="abs">
-        <img src="img/image_geometry_menu_1.svg" alt="image2" />
-      </div>
-
-      <div class="closed">
-        <div id="closed" class="hide">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 0 24 24"
-            width="24px"
-            fill="#000000"
-          >
-            <path d="M0 0h24v24H0V0z" fill="none" />
-            <path
-              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
-            />
-          </svg>
-        </div>
-      </div>
-
-      <nav class="nav--mobile abs middle">
-        <ul>
-          <li><a href="#" rel="access" class="option">Hello</a></li>
-          <li><a href="#" rel="acess" class="option">Portfolio</a></li>
-          <li><a href="#" rel="access" class="option">About</a></li>
-          <li><a href="#" rel="access" class="option">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="abs bottom">
-        <img src="img/image_geometry_menu_2.svg" alt="iamge2" />
-      </div>
-    </div>
-
-    <div id="nav-wrapper">
-      <div class="burger" id="burger">
-        <div id="open">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 0 24 24"
-            width="24px"
-            fill="#000000"
-          >
-            <path d="M0 0h24v24H0V0z" fill="none" />
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
-          </svg>
-        </div>
-      </div>
-
-      <section id="greeting" class="greeting">
-        <h1>Busiwa Liuma</h1>
-        <p>
-          Hello! I am a software developer! I can help you build a product,
-          feature or website. Taka a look of my works. If you like what you see
-          and have a project you need coded, don’t hesitate and contact me.
-        </p>
-        <a class="collab-link" href="#" rel="noopener noreferrer">
-          <div class="collab-button">Start Collaboration</div>
-        </a>
-        <img class="deco-0" src="./img/image_dots.svg" alt=" " />
-      </section>
-
-      <div id="design" class="collaboration">
-        <img
-          id="mos-1"
-          class="design-img"
-          src="./img/image_geometry_2.svg"
-          alt=" "
-        />
-        <img id="mos-2" class="design-img" src="./img/desktop-bg.svg" alt=" " />
-      </div>
-    </div>
-
-    <section id="projects" class="works">
-      <ul class="works-container">
-        <li class="c1">
-          <h2>Projects</h2>
-          <img class="deco-1" src="./img/image_dots.svg" alt="image" />
-          <div class="project-1">
-            <img class="works-img" src="./img/work-img-1.svg" alt="Image" />
-            <div class="works-box">
-              <h3>Project name goes here</h3>
-              <ul class="framework-container">
-                <li>HTML/CSS</li>
-                <li>Ruby on Rails</li>
-                <li>JavaScript</li>
-              </ul>
-              <a href="#" rel="access" class="works-link">
-                <div class="works-button" id="btn-1">
-                  <span>See this project</span>
-                  <div class="works-arrow"></div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </li>
-        <li class="cm">
-          <div class="c2">
-            <div class="c21">
-              <div class="project-2">
-                <img
-                  class="works-img"
-                  src="./img/work-img-2.svg"
-                  alt="work image"
-                />
-                <div class="works-box">
-                  <h3>Project name goes here</h3>
-                  <ul class="framework-container">
-                    <li class="framework-box">HTML/CSS</li>
-                    <li class="framework-box">Ruby on Rails</li>
-                    <li class="framework-box">JavaScript</li>
-                  </ul>
-                  <a href="#" rel="access" class="works-link">
-                    <div id="btn-2" class="works-button">
-                      <span>See this project</span>
-                      <div class="works-arrow"></div>
-                    </div>
-                  </a>
-                </div>
+  </div>
+  <section id="projects" class="works">
+    <ul class="works-container">
+      <li class="c1">
+        <h2>Projects</h2>
+        <img class="deco-1" src="./Media/image_dots.svg" alt=" ">
+        <div class="project-1">
+          <img class="works-img" src="./Media/work-img-1.svg" alt="Man typing on a laptop">
+          <div class="works-box">
+            <h3>Project name goes here</h3>
+            <ul class="lang-container">
+              <li class="lang-box">HTML/CSS</li>
+              <li class="lang-box">Ruby on Rails</li>
+              <li class="lang-box">JavaScript</li>
+            </ul>
+            <a href="#portfolio" rel="noopener noreferrer" class="works-link" onclick="modal(0)">
+              <div class="works-button">
+                <span>See this project</span>
+                <div class="works-arrow"></div>
               </div>
-              <img class="deco-2" src="./img/image-geometry_2-1.svg" alt=" " />
-            </div>
-            <div class="c22">
-              <div class="project-3">
-                <img
-                  class="works-img"
-                  src="./img/work-img-3.svg"
-                  alt="Man typing on a laptop"
-                />
-                <div class="works-box">
-                  <h3>Project name goes here</h3>
-                  <ul class="framework-container">
-                    <li class="framework-box">HTML/CSS</li>
-                    <li class="framework-box">Ruby on Rails</li>
-                    <li class="framework-box">JavaScript</li>
-                  </ul>
-                  <a href="#" rel="access" class="works-link">
-                    <div class="works-button" id="btn-3">
-                      <span>See this project</span>
-                      <div class="works-arrow"></div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <img class="deco-3" src="./img/Shape.svg" alt=" " />
-            </div>
+            </a>
           </div>
-          <div class="c3">
-            <div class="project-4">
-              <img
-                class="works-img"
-                src="./img/work-img-4.svg"
-                alt="Man typing on a laptop"
-              />
+        </div>
+      </li>
+      <li class="cm">
+        <div class="c2">
+          <div class="c21">
+            <div class="project-2">
+              <img class="works-img" src="./Media/work-img-2.svg" alt="macbook pro">
               <div class="works-box">
                 <h3>Project name goes here</h3>
-                <ul class="framework-container">
-                  <li class="framework-box">HTML/CSS</li>
-                  <li class="framework-box">Ruby on Rails</li>
-                  <li class="framework-box">JavaScript</li>
+                <ul class="lang-container">
+                  <li class="lang-box">HTML/CSS</li>
+                  <li class="lang-box">Ruby on Rails</li>
+                  <li class="lang-box">JavaScript</li>
                 </ul>
-                <a href="#" rel="access" class="works-link">
-                  <div class="works-button" id="btn-4">
+                <a href="#portfolio" rel="noopener noreferrer" class="works-link" onclick="modal(1)">
+                  <div class="works-button">
                     <span>See this project</span>
                     <div class="works-arrow"></div>
                   </div>
                 </a>
               </div>
             </div>
-            <div class="project-5">
-              <img class="works-img" src="./img/work-img-5.svg" alt="image" />
+            <img class="deco-2" src="./Media/image-geometry_2-1.svg" alt=" ">
+          </div>
+          <div class="c22">
+            <div class="project-3">
+              <img class="works-img" src="./Media/work-img-3.svg" alt="macbook alongside a iPhone">
               <div class="works-box">
                 <h3>Project name goes here</h3>
-                <ul class="framework-container">
-                  <li class="framework-box">HTML/CSS</li>
-                  <li class="framework-box">Ruby on Rails</li>
-                  <li class="framework-box">JavaScript</li>
+                <ul class="lang-container">
+                  <li class="lang-box">HTML/CSS</li>
+                  <li class="lang-box">Ruby on Rails</li>
+                  <li class="lang-box">JavaScript</li>
                 </ul>
-                <a href="#" rel="noopener noreferrer" class="works-link">
-                  <div class="works-button" id="btn-5">
+                <a href="#portfolio" rel="noopener noreferrer" class="works-link" onclick="modal(2)">
+                  <div class="works-button">
                     <span>See this project</span>
                     <div class="works-arrow"></div>
                   </div>
                 </a>
               </div>
             </div>
+            <img class="deco-3" src="./Media/Shape.svg" alt=" ">
           </div>
-        </li>
-        <li class="c4">
-          <div class="deco-container">
-            <img class="deco-4" src="./img/image-geometry_5.svg" alt=" " />
-            <img class="deco-5" src="./img/image-geometry_4.svg" alt=" " />
-          </div>
-          <div class="project-6">
-            <img
-              class="works-img"
-              src="./img/work-img-6.svg"
-              alt="work image"
-            />
+        </div>
+        <div class="c3">
+          <div class="project-4">
+            <img class="works-img" src="./Media/work-img-4.svg" alt="opened macbook">
             <div class="works-box">
               <h3>Project name goes here</h3>
-              <ul class="framework-container">
-                <li class="framework-box">HTML/CSS</li>
-                <li class="framework-box">Ruby on Rails</li>
-                <li class="framework-box">JavaScript</li>
+              <ul class="lang-container">
+                <li class="lang-box">HTML/CSS</li>
+                <li class="lang-box">Ruby on Rails</li>
+                <li class="lang-box">JavaScript</li>
               </ul>
-              <a href="#" rel="access" class="works-link">
-                <div class="works-button" id="btn-6">
+              <a href="#portfolio" rel="noopener noreferrer" class="works-link" onclick="modal(3)">
+                <div class="works-button">
                   <span>See this project</span>
                   <div class="works-arrow"></div>
                 </div>
               </a>
             </div>
           </div>
-        </li>
-      </ul>
-    </section>
-    <section id="about-wrapper" class="about">
-      <div id="about">
-        <h2>About</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ea eiusmod
-        </p>
-        <a href="#" rel="noopener noreferrer" class="about-link">
-          <div class="cv-box">
-            <span>Get my CV</span>
-            <div></div>
+          <div class="project-5">
+            <img class="works-img" src="./Media/work-img-5.svg" alt="a tilted Macbook">
+            <div class="works-box">
+              <h3>Project name goes here</h3>
+              <ul class="lang-container">
+                <li class="lang-box">HTML/CSS</li>
+                <li class="lang-box">Ruby on Rails</li>
+                <li class="lang-box">JavaScript</li>
+              </ul>
+              <a href="#portfolio" rel="noopener noreferrer" class="works-link" onclick="modal(4)">
+                <div class="works-button">
+                  <span>See this project</span>
+                  <div class="works-arrow"></div>
+                </div>
+              </a>
+            </div>
           </div>
-        </a>
-      </div>
-      <div id="squares" class="about-container">
-        <div class="languages">
-          <h3>Languages</h3>
-          <ul>
-            <li>JavaScript (ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <img src="./img/hash.svg" alt=" " class="about-img" />
         </div>
-        <div class="frameworks">
-          <h3>Frameworks</h3>
-          <ul>
-            <li>Bootstrap</li>
-            <li>Ruby on rails</li>
-            <li>RSpec</li>
-            <li>Capibara</li>
-            <li>Selenium</li>
-          </ul>
-          <img src="./img/Group-18.svg" alt=" " class="about-img" />
+      </li>
+      <li class="c4">
+        <div class="deco-container">
+          <img class="deco-4" src="./Media/image-geometry_5.svg" alt=" ">
+          <img class="deco-5" src="./Media/image-geometry_4.svg" alt=" ">
         </div>
-        <div class="skills">
-          <h3>Skills</h3>
-          <ul>
-            <li>Codekit</li>
-            <li>Codepen</li>
-            <li>GitHub</li>
-            <li>GitLAb</li>
-            <li>Terminal</li>
-          </ul>
-          <img src="./img/ic_skills.svg" alt=" " class="about-img" />
+        <div class="project-6">
+          <img class="works-img" src="./Media/work-img-6.svg" alt="iPhone lying on a Macbook">
+          <div class="works-box">
+            <h3>Project name goes here</h3>
+            <ul class="lang-container">
+              <li class="lang-box">HTML/CSS</li>
+              <li class="lang-box">Ruby on Rails</li>
+              <li class="lang-box">JavaScript</li>
+            </ul>
+            <a href="#portfolio" rel="noopener noreferrer" class="works-link" onclick="modal(5)">
+              <div class="works-button">
+                <span>See this project</span>
+                <div class="works-arrow"></div>
+              </div>
+            </a>
+          </div>
         </div>
-        <img class="deco-7" src="./img/image_dots_with_teal.svg" alt="image" />
-      </div>
-    </section>
-    <section id="contact" class="contact-me">
-      <h2>Get started</h2>
+      </li>
+    </ul>
+  </section>
+  <section id="about-wrapper" class="about">
+    <div id="about">
+      <h2>About</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna.
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea
+        eiusmod
       </p>
-      <form action="https://formspree.io/f/xwkanyro" method="POST">
-        <label>
-          <span class="labels">Your Name</span>
-          <input
-            type="text"
-            maxlength="30"
-            placeholder=" Your name"
-            name="name"
-            required
-          />
-        </label>
-        <label>
-          <span class="labels">Your Email</span>
-          <input type="email" placeholder=" Your email" name="email" required />
-        </label>
-        <label class="txt-area">
-          <span class="labels">Message</span>
-          <textarea
-            placeholder="Enter your message here..."
-            maxlength="500"
-            required
-          ></textarea>
-        </label>
-        <button type="submit">Start collaboration</button>
-      </form>
-      <img class="deco-8" src="./img/image-geometry_6.svg" alt=" " />
-      <img class="deco-9" src="./img/image-geometry_7.svg" alt=" " />
-    </section>
-    <footer id="footer">
-      <div class="get-resume">
-        <a class="get-cv-link" href="#" rel="noopener noreferrer"
-          >Get my Resume</a
-        >
-        <img src="./img/cv-icon.svg" alt=" " />
+      <a href="#" rel="noopener noreferrer" class="about-link">
+        <div class="cv-box">
+          <span>Get my CV</span>
+          <div></div>
+        </div>
+      </a>
+    </div>
+    <div id="squares" class="about-container">
+      <div class="languages">
+        <h3>Languages</h3>
+        <ul>
+          <li>JavaScript (ES5/ES6)</li>
+          <li>Ruby</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        <img src="./Media/hash.svg" alt=" " class="about-img">
       </div>
-      <ul>
-        <li>
-          <a href="#" rel="access"><img src="./img/icon-1.svg" alt=" " /></a>
-        </li>
-        <li>
-          <a href="#" rel="access"><img src="./img/icon-2.svg" alt=" " /></a>
-        </li>
-        <li>
-          <a href="#" rel="access"><img src="./img/icon-3.svg" alt=" " /></a>
-        </li>
-        <li>
-          <a href="#" rel="access"><img src="./img/icon-4.svg" alt=" " /></a>
-        </li>
-        <li>
-          <a href="#" rel="access"><img src="./img/icon-5.svg" alt=" " /></a>
-        </li>
-        <li>
-          <a href="#" rel="access"
-            ><img src="./img/ic_stackoverflow.svg" alt=" "
-          /></a>
-        </li>
-      </ul>
-    </footer>
-    <script src="index.js"></script>
-  </body>
+      <div class="frameworks">
+        <h3>Frameworks</h3>
+        <ul>
+          <li>Bootstrap</li>
+          <li>Ruby on rails</li>
+          <li>RSpec</li>
+          <li>Capibara</li>
+          <li>Selenium</li>
+        </ul>
+        <img src="./Media/Group-18.svg" alt=" " class="about-img">
+      </div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Codekit</li>
+          <li>Codepen</li>
+          <li>GitHub</li>
+          <li>GitLAb</li>
+          <li>Terminal</li>
+        </ul>
+        <img src="./Media/ic_skills.svg" alt=" " class="about-img">
+      </div>
+      <img class="deco-7" src="./Media/image_dots_with_teal.svg" alt=" ">
+    </div>
+  </section>
+  <section id="contact" class="contact-me">
+    <h2>Get started</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna.
+    </p>
+    <form id="form">
+      <label>
+        *Name:
+        <input id="name" type="text" minlength="1" maxlength="30" placeholder=" Your name" name="name" onchange="storeForm()">
+      </label>
+      <label>
+        *Email:
+        <input type="email" id="email" placeholder=" Your email" name="email" onchange="storeForm()">
+      </label>
+      <label class="txt-area">
+        *Message:
+        <textarea id="comment" placeholder="Enter your message here..." maxlength="500" onchange="storeForm()"></textarea>
+        <small>* Means required field</small>
+      </label>
+      <small id="message"></small>
+      <button onclick="validation()" type="submit">Start collaboration</button>
+    </form>
+    <img class="deco-8" src="./Media/image-geometry_6.svg" alt=" ">
+    <img class="deco-9" src="./Media/image-geometry_7.svg" alt=" ">
+  </section>
+  <footer id="footer">
+    <div class="get-resume">
+      <a class="get-cv-link" href="#" rel="noopener noreferrer">Get my Resume</a>
+      <img src="./Media/cv-icon.svg" alt=" ">
+    </div>
+    <ul>
+      <li><a href="#" rel="noopener noreferrer"><img src="./Media/icon-1.svg" alt=" "></a></li>
+      <li><a href="#" rel="noopener noreferrer"><img src="./Media/icon-2.svg" alt=" "></a></li>
+      <li><a href="#" rel="noopener noreferrer"><img src="./Media/icon-3.svg" alt=" "></a></li>
+      <li><a href="#" rel="noopener noreferrer"><img src="./Media/icon-4.svg" alt=" "></a></li>
+      <li><a href="#" rel="noopener noreferrer"><img src="./Media/icon-5.svg" alt=" "></a></li>
+      <li><a href="#" rel="noopener noreferrer"><img src="./Media/ic_stackoverflow.svg" alt=" "></a></li>
+    </ul>
+  </footer>
+
+<!---------------------------- Cards ----------------------------------------->
+
+<article id="card" class="card-container invisible">
+  <div class="card">
+     <i id="card-cross" class="fas fa-times card-cross" onclick="toggle()"></i>
+    <h3 id="card-title">See Project header</h3>
+    <ul id="card-list" class="card-list">
+    </ul>
+    <img src="./Media/work-img-2.svg" class="card-image" alt="Someone's MacBook">
+    <p id="card-description">
+    </p>
+    <div class="button-container">
+      <button type="button" id="card-button-live" class="card-button">
+        See live
+        <i class="fas fa-external-link-alt"></i>
+      </button>
+      <button type="button" id="card-button-source" class="card-button">
+        See source
+        <i class="fab fa-github"></i>
+    </button>
+    </div>
+  </div>
+
+
+</article>
+
+<!---------------------------------------------------------------------------->
+
+</body>
 </html>
